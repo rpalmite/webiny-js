@@ -49,7 +49,7 @@ Packages prefixed with `app-` are React apps. The ones with the `api-` prefix ar
    yarn
    ```
 
-3. Run `yarn setup-repo`. This will setup all the necessary environment config files and build the necessary packages. You need to manually update the DB connection string, edit your `examples/api/.env.json` file.
+3. Run `sudo yarn setup-repo`. This will setup all the necessary environment config files and build the necessary packages. You need to manually update the DB connection string, edit your `examples/api/.env.json` file.
 
 4. Deploy you API to use with local React apps by running `webiny deploy-api` from the `examples` folder. Once deployed, it will automatically update you React apps' `.env.json` files with the necessary variables.
 
